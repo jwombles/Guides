@@ -89,7 +89,7 @@ A guide for creating a Django project for use in both Local & Production (deploy
     move \Users\YourName\Dev\cfehome\src\settings.py \Users\YourName\Dev\cfehome\src\settings\base.py
     ```
 
-    Copy Local settings (local.py) to make new (base.py & production.py) file:
+    Copy the new base settings file (base.py) to create new (local.py & production.py) files:
     ```
     # mac/linux
     cp ~/Dev/cfehome/src/settings/base.py ~/Dev/cfehome/src/settings/local.py
